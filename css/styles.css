@@ -1,0 +1,19 @@
+body {
+  font-family: 'Spectral';
+  font-size: 19px;
+  text-align: center;
+  position: relative;
+}
+
+label {
+
+}
+
+button {
+
+}
+
+
+#story{
+display: none;
+}

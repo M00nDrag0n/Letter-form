@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Your Personal Letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="blank">
+        <form id="formOne">
+          <div class="form-group">
+            <label for="person1">What is your name?</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Display My Letter!</button>
+        </form>
+      </div>
+      <div id="story">
+        <h1><div id="letter-content"><span class="person1"></span></div>, Your Letter Is Ready</h1>
+        <p> Dear <span class="person1"></span>, <br><br> I know I am just a computer, but I think you are very special! You are someone who has come to me with information and I am here to use it in my next update! Thank you for giving me your name!</p>
+        <h2 id="results"></h2>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- ID and class called same naming convention which is confusing -->
